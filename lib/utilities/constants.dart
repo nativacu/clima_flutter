@@ -18,3 +18,24 @@ const kButtonTextStyle = TextStyle(
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
+
+const kTextInputDecoration = InputDecoration(
+    filled: true,
+    fillColor: Colors.white,
+    hintText: 'Melbourne',
+    icon: Icon(
+      Icons.location_city,
+      color: Colors.white,
+    ),
+    hintStyle: TextStyle(
+        color: Colors.grey
+    ),
+    border: OutlineInputBorder(
+        borderRadius: BorderRadius.all(
+          Radius.circular(10.0),
+        ),
+        borderSide: BorderSide.none
+    )
+);
+
+const kApiKey = '08687e14275675e99740e9b24a2f4fec';
